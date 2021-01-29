@@ -19,7 +19,7 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #020024;
+    background: linear-gradient(60deg, #020024, rgb(87, 3, 87) ) ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +94,26 @@ body{
 }
 /*end of vertical hover*/
 
+footer{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(0deg, rgb(11, 212, 11) 40%, rgb(248, 248, 19) 60%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+footer li{
+    margin: 10px;
+    list-style: none;
+}
 
 
 
